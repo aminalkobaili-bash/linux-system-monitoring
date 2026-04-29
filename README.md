@@ -55,7 +55,7 @@ Focuses on real-time system monitoring tools:
 ## Environment
 
 - Ubuntu Server (virtual machines)
-- VirtualBox or similar virtualization tool
+- VMWARE 
 
 ## Skills Demonstrated
 
