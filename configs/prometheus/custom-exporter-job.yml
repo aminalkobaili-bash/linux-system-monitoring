@@ -1,0 +1,8 @@
+# Added under scrape_configs: in /etc/prometheus/prometheus.yml (verbatim from the lab).
+# The default "node" job (node_exporter on localhost:9100) comes with the Ubuntu prometheus package.
+- job_name: "custom_node"
+  static_configs:
+    - targets: ["localhost:80"]
+      labels:
+        group: "custom"
+  metrics_path: /metrics
